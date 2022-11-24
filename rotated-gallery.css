@@ -67,7 +67,7 @@
 @media screen and (max-width: 630px) {
     .panel-container {
         position: relative;
-        max-height: 410px;
+        max-height: 480px;
     }
 
     .panel {
@@ -84,7 +84,7 @@
         flex: 1;
         width: 100%;
         position: absolute;
-        height: 360px;
+        height: 440px;
         left: 0;
         margin: 40px 0 0;
         z-index: -1;
