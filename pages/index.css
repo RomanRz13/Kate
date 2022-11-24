@@ -234,7 +234,6 @@
     margin: 0 auto;
     z-index: 2;
     border-color: #A5A3A6;
-
 }
 
 
@@ -267,6 +266,7 @@
         justify-content: center;
         -webkit-transform: translate3d(0, 0, 0);
         -webkit-transform: rotateY(-180deg);
+        overflow: hidden;
     }
 
 }
