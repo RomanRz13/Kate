@@ -7,6 +7,19 @@
     background-position: center top;
     margin: 20px 0;
 }
+
+@media screen and (max-width: 919px) {
+    .total__container {
+        margin: 0 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .total__container {
+        margin: 0;
+    }
+}
+
 .total__card {
     perspective: 1500px;
     transition-property: transform;
@@ -15,6 +28,7 @@
     transition-delay: initial;
     animation: cardIn 1s alternate cubic-bezier(0.87, -0.41, 0.19, 1.44);
 }
+
 .total__card:before {
     content: "";
     display: block;
