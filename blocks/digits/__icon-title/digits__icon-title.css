@@ -1,0 +1,64 @@
+
+.digits__icon-title{
+    width: 64px;
+	align-self:center;
+	padding-top: 30px;
+	
+}
+
+.icon-title-360{
+	animation-name: tossing360;
+	animation-duration: 2.5s;
+    animation-iteration-count:1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+
+	
+}
+@keyframes tossing360{
+ 
+	15% {
+		transform: rotate(-80deg);	
+	}
+	35% {
+		transform: rotate(80deg);	
+	}
+	50% {
+		transform: rotate(-80deg);	
+    }
+
+	65% {
+		transform: rotate(70deg);	
+
+    }
+	80% {
+		transform: rotate(-70deg);	
+	
+    }
+	
+	95% {
+		transform: rotate(70deg);	
+	
+    }
+
+	100% {
+		transform: rotate(0deg);	
+	
+    }
+  		
+}
+
+
+.icon-title {
+    animation: none;
+}
+
+@media screen and (max-width: 919px) {
+    .digits__icon-title {
+        max-width: 56px;
+		margin-top: -10px;
+        
+    }
+}
+
+

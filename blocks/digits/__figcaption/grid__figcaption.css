@@ -1,0 +1,26 @@
+.grid__figcaption{
+    max-width: 300px;
+    margin: -70px 0 0 30px;
+    font-family: 'amatic-bold';
+    line-height: 21px;
+    font-size: 22px;
+    color: black;
+    z-index: 2;
+}
+
+
+
+
+@media screen and (max-width: 832px) {
+    .grid__figcaption {
+       max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .grid__figcaption {
+        line-height: 19px;
+        font-size: 20px;
+       
+    }
+}

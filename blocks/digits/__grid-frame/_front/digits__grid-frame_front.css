@@ -1,0 +1,15 @@
+
+.digits__grid-frame_front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    backface-visibility: hidden;
+
+}
+
+.digits__grid-frame_front img {
+    width: 100%;
+    height: 100%;
+
+}

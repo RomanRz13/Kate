@@ -1,0 +1,20 @@
+.digits__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #dde2ea;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+@media screen and (max-width: 630px) {
+    .digits__title{
+        flex-direction: column;
+        justify-content: center;
+        align-self:center;
+        align-items: center;
+        padding-top: 80px;
+        margin-top: 10px;
+        
+    }
+}

@@ -1,0 +1,71 @@
+.digits__grid-frame-box{
+    width: 300px;
+    height: 400px;
+    border-image-source: url("../../../images/digits-frame/frame5.jpg");
+	border-image-slice: 35 35 110 35;
+	border-style: solid;
+	border-width: 30px 30px 100px 30px;
+	margin: 0 auto;
+	z-index: 2;
+    border-color:#A5A3A6;
+   
+}
+
+
+
+.digits__grid-frame-box-green{
+   
+    border-image-source: url("../../../images/digits-frame/frame6.jpg");
+    border-color:#A5A3A6;
+
+}
+
+.digits__grid-frame-box-blue{
+ 
+    border-image-source: url("../../../images/digits-frame/frame7.jpg");
+    border-color:#A5A3A6;
+
+}
+
+
+.digits__grid-frame-box-pink{
+    border-image-source: url("../../../images/digits-frame/frame1.jpg");
+    border-color:#A5A3A6;
+
+}
+
+.digits__grid-frame-box-deep_purple{
+    border-image-source: url("../../../images/digits-frame/frame4.jpg");
+    border-color:#A5A3A6;
+
+}
+
+.digits__grid-frame-box-yelow{
+    border-image-source: url("../../../images/digits-frame/frame2.jpg");
+    border-color:#A5A3A6;
+
+}
+
+@media screen and (max-width: 1124px) {
+    .digits__grid-frame-box{
+        max-width: 377px;
+        max-height: 530px;
+        
+    }
+}
+
+@media screen and (max-width: 832px) {
+    .digits__grid-frame-box{
+        max-width: 260px;
+        max-height: 400px;
+        
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .digits__grid-frame-box{
+        max-width: 260px;
+        max-height: 410px;
+        
+    }
+}

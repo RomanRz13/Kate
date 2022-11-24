@@ -1,0 +1,17 @@
+.digits__grid-frame{
+max-width: 100%;
+max-height: 100%;
+margin: 0 auto;
+z-index: 2;
+border-color:#A5A3A6;
+
+}
+
+@media screen and (max-width: 919px) {
+    .digits__grid-frame{
+        width: 310px;
+        height: 480px;
+    }
+}
+
+

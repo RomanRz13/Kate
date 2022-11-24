@@ -1,0 +1,5 @@
+.digits__grid-frames .digits__content:hover .digits__picture {
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: rotateY(180deg);
+
+}
