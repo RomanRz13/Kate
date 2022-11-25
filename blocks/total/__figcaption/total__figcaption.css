@@ -1,0 +1,13 @@
+.total__figcaption {
+    display: none;
+}
+
+@media screen and (max-width: 630px) {
+    .total__figcaption {
+        line-height: 20px;
+        font-size: 18px;
+        margin: -70px 0 0 20px;
+        color: black;
+        display: block;
+    }
+}

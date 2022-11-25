@@ -1,0 +1,15 @@
+.footer__column-heading {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: auto;
+
+}
+
+@media screen and (max-width:630px){
+    .footer__column-heading{
+       display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+}

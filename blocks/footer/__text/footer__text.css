@@ -1,0 +1,9 @@
+.footer__text {
+    color: #dde2ea;
+}
+
+@media screen and (max-width:630px) {
+    .footer__text {
+        display: none;
+    }
+}

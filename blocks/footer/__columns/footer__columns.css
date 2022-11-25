@@ -1,0 +1,16 @@
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+color: #dde2ea;;
+
+
+}
+
+
+@media screen and (max-width:630px){
+    .footer__columns{
+       display: block;
+        justify-content: center;
+    
+    }
+}

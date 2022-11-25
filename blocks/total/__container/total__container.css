@@ -5,7 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    margin: 20px 0;
+    margin: 15px 0 0 100px;
+    
 }
 
 @media screen and (max-width: 630px) {

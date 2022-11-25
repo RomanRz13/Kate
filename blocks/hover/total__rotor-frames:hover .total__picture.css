@@ -1,0 +1,7 @@
+@media screen and (max-width: 630px) {
+    .total__rotor-frames:hover .total__picture {
+        -webkit-transform: translate3d(0, 0, 0);
+        -webkit-transform: rotateY(180deg);
+
+    }
+}

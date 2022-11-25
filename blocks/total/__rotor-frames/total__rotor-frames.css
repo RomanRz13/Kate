@@ -1,0 +1,37 @@
+.total__rotor-frames {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 540px;
+    grid-template-rows: 600px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    object-fit: contain;
+
+}
+
+
+
+@media screen and (max-width: 1124px) {
+    .total__rotor-frames {
+        grid-template-columns: 500px;
+        grid-template-rows: 560px;
+
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .total__rotor-frames {
+        grid-template-columns: 320px;
+        grid-template-rows: 380px;
+
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .total__rotor-frames {
+        grid-template-columns: 340px;
+        grid-template-rows: 420px;
+        margin-top: 0;
+
+    }
+}

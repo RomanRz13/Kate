@@ -1,0 +1,20 @@
+.footer__column-link {
+   flex-direction: row;
+   display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 1s;
+    padding-bottom: 10px;
+}
+
+.footer__column-link:hover {
+    opacity: 0.35;
+}
+
+@media screen and (max-width:630px){
+    .footer__column-link{
+     padding: 30px;
+    
+    }
+}

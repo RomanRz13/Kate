@@ -1,0 +1,19 @@
+.footer__column-links {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+    list-style: none;
+    color: #fff;
+    padding: 20px 0 16px;
+    margin: auto;
+
+}
+
+
+@media screen and (max-width:630px){
+    .footer__column-links {
+       display: flex;
+        justify-content: center;
+    
+    }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 630px) {
+    .total__rotor-frame_back {
+        width: 100%;
+        height: 100%;
+        color: #dde2ea;
+        background-color: #597796;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-transform: translate3d(0, 0, 0);
+        -webkit-transform: rotateY(-180deg);
+        overflow: hidden;
+    }
+
+}
